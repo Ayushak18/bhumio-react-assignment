@@ -17,7 +17,13 @@ export default function SingleProjectCard(props) {
           <Box>
             <p>: {props.singleProject.id}</p>
             <p>: {props.singleProject.name}</p>
-            <p>: {"₹ "+props.singleProject.budget}</p>
+            <p>
+              :{" "}
+              {"₹ " +
+                props.singleProject.budget
+                  .toString()
+                  .replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+            </p>
             <p>: {props.singleProject.end_date}</p>
           </Box>
         </Box>

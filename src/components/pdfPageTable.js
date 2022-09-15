@@ -47,7 +47,12 @@ export default function PDFPageTable() {
                 {singleProject.id}
               </TableCell>
               <TableCell>{singleProject.name}</TableCell>
-              <TableCell>{"₹ " + singleProject.budget}</TableCell>
+              <TableCell>
+                {"₹ " +
+                  singleProject.budget
+                    .toString()
+                    .replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+              </TableCell>
             </TableRow>
           ))}
         </TableBody>

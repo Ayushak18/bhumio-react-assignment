@@ -12,11 +12,11 @@
         "phone":"741258963",
         "email":"xyz@gmail.com",
         "status":"Bhoomi Poojan Done,Foundation Completed",
-        "budget": 2000000042
+        "budget": 200000004
     },
     {
         "id":12345679,
-        "name":"Bridge Construction",
+        "name":"Temple Construction",
         "manager":"Ram Krishna",
         "start_date": "27/12/2020",
         "site":"25,Rampur,UP",
@@ -27,11 +27,11 @@
         "phone":"741258963",
         "email":"xyz@gmail.com",
         "status":"Bhoomi Poojan Done,Foundation Completed",
-        "budget": 200000
+        "budget": 30000000
     },
     {
         "id":12345689,
-        "name":"Bridge Construction",
+        "name":"House Construction",
         "manager":"Ram Krishna",
         "start_date": "27/12/2020",
         "site":"25,Rampur,UP",
@@ -46,7 +46,7 @@
     },
     {
         "id":12345789,
-        "name":"Bridge Construction",
+        "name":"Road Construction",
         "manager":"Ram Krishna",
         "start_date": "27/12/2020",
         "site":"25,Rampur,UP",
@@ -57,11 +57,11 @@
         "phone":"741258963",
         "email":"xyz@gmail.com",
         "status":"Bhoomi Poojan Done,Foundation Completed",
-        "budget": 904651000
+        "budget": 404651000
     },
     {
         "id":12346789,
-        "name":"Bridge Construction",
+        "name":"Well Construction",
         "manager":"Ram Krishna",
         "start_date": "27/12/2020",
         "site":"25,Rampur,UP",
@@ -76,7 +76,7 @@
     },
     {
         "id":12356789,
-        "name":"Bridge Construction",
+        "name":"Highway Construction",
         "manager":"Ram Krishna",
         "start_date": "27/12/2020",
         "site":"25,Rampur,UP",
@@ -91,7 +91,7 @@
     },
     {
         "id":12456789,
-        "name":"Bridge Construction",
+        "name":"Temple Construction",
         "manager":"Ram Krishna",
         "start_date": "27/12/2020",
         "site":"25,Rampur,UP",
@@ -102,11 +102,11 @@
         "phone":"741258963",
         "email":"xyz@gmail.com",
         "status":"Bhoomi Poojan Done,Foundation Completed",
-        "budget": 5698523
+        "budget": 56985230
     },
     {
         "id":13456789,
-        "name":"Bridge Construction",
+        "name":"Pond Construction",
         "manager":"Ram Krishna",
         "start_date": "27/12/2020",
         "site":"25,Rampur,UP",
@@ -117,11 +117,11 @@
         "phone":"741258963",
         "email":"xyz@gmail.com",
         "status":"Bhoomi Poojan Done,Foundation Completed",
-        "budget": 45896325740
+        "budget": 358963250
     },
     {
         "id":23456789,
-        "name":"Bridge Construction",
+        "name":"Flyover Construction",
         "manager":"Ram Krishna",
         "start_date": "27/12/2020",
         "site":"25,Rampur,UP",
@@ -177,7 +177,7 @@
         "phone":"741258963",
         "email":"xyz@gmail.com",
         "status":"Bhoomi Poojan Done,Foundation Completed",
-        "budget": 2135890
+        "budget": 20135890
     },
     {
         "id":1234456789,
@@ -192,6 +192,6 @@
         "phone":"741258963",
         "email":"xyz@gmail.com",
         "status":"Bhoomi Poojan Done,Foundation Completed",
-        "budget": 6500000
+        "budget": 60500000
     }
 ]

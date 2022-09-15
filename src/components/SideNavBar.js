@@ -52,12 +52,14 @@ export default function SideNavBar() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <ListItem key="Chart" disablePadding>
-            <ListItemButton>
-              <ListItemIcon>{<ShowChartIcon />}</ListItemIcon>
-              <ListItemText primary="Chart" />
-            </ListItemButton>
-          </ListItem>
+          <Link to="/report/projectbudgetplot">
+            <ListItem key="Chart" disablePadding>
+              <ListItemButton>
+                <ListItemIcon>{<ShowChartIcon />}</ListItemIcon>
+                <ListItemText primary="Chart" />
+              </ListItemButton>
+            </ListItem>
+          </Link>
         </List>
       </Drawer>
     </Box>
