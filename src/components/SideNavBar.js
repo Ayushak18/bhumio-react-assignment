@@ -44,7 +44,7 @@ export default function SideNavBar() {
               </ListItemButton>
             </ListItem>
           </Link>
-          <Link to="/project">
+          <Link to="/report/pdf-report">
             <ListItem key="PDF Viewer" disablePadding>
               <ListItemButton>
                 <ListItemIcon>{<PictureAsPdfIcon />}</ListItemIcon>
