@@ -3,6 +3,8 @@ import SideNavBar from "../components/SideNavBar";
 import SingleProjectCard from "../components/SingleProjectCard";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
+import { Link } from "react-router-dom";
+import data from "../data/dummyData.json";
 
 function Dashboard() {
   return (
@@ -19,26 +21,17 @@ function Dashboard() {
           flexWrap: "wrap",
         }}
       >
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
-        <SingleProjectCard />
+        {data.map((singleProject, index) => {
+          return (
+            <Link
+              key={index}
+              to={`/project/${singleProject.id}`}
+              state={{ singleProject }}
+            >
+              <SingleProjectCard singleProject={singleProject} />
+            </Link>
+          );
+        })}
       </Box>
     </>
   );

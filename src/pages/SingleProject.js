@@ -1,10 +1,13 @@
 import SideNavBar from "../components/SideNavBar";
-
+import { useLocation } from "react-router-dom";
+import ProjectCard from "../components/projectCard";
 function SingleProject() {
+  const location = useLocation();
+  const data = location.state;
   return (
     <>
       <SideNavBar />
-      <h1>This is from the single project page</h1>
+      <ProjectCard data={data} />
     </>
   );
 }
